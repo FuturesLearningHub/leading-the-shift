@@ -10,7 +10,7 @@ Run after editing index.html or notes.json:
 import json, re, html, os
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-LEARNER_URL = "https://me5231979.github.io/Course_Library/leading-ai-adoption/"
+LEARNER_URL = "https://flh-learning-library.vercel.app/leading-ai-adoption/"
 
 s = open(os.path.join(ROOT, 'index.html')).read()
 notes = json.load(open(os.path.join(ROOT, 'facilitator', 'notes.json')))
